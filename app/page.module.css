@@ -1,0 +1,69 @@
+.homePageName {
+  text-align: center;
+}
+
+.UserInputCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InputSection {
+  display: flex;
+  position: relative;
+}
+
+.InputSection>textarea {
+  margin: 2vh;
+  width: 60vh;
+  height: 50vh;
+  background-color: rgb(82, 82, 82);
+  color: aliceblue;
+  resize: none;
+  border-radius: 1%;
+  padding: 1vh;
+}
+
+.InputSection>textarea:focus {
+  outline: none;
+  border-color: rgb(234, 219, 200)
+}
+
+.InputSection>button {
+  position: absolute;
+  top: 2vh;
+  left: 100%;
+}
+
+.outputCon {
+background-color:  rgb(82, 82, 82);
+width: 120vh;
+height: 100vh;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+margin-top: 30vh;
+border-radius: 5px;
+}
+
+.remoteControl {
+display: flex;
+text-align: center;
+align-items: center;
+}
+
+.remoteType {
+width: 10vh;
+margin: 1rem;
+border-radius: 5px;
+background-color: gray;
+cursor: pointer;
+}
+
+.remoteTypeClicked{
+width: 10vh;
+margin: 1rem;
+border-radius: 5px;
+background-color: rgb(168, 168, 125);
+cursor: pointer;
+}
